@@ -47,13 +47,25 @@ li{margin-left: 10px;}
 .tab{width: 100%;}
 
 .tab, th, td {
-  border:1px solid black;
+  border-collapse: collapse;
 }
 
 .col-text {
   width:50%;
 }
 
-tr:nth-child(even) {
-  background-color: #dddddd;
+tr:nth-child(1){
+  color: white;
+  background-color: rgb(6, 174, 235);
+  
 }
+
+tr:nth-child(2){
+    background-color: lightblue;
+    
+  }
+
+  tr:nth-child(4){
+    background-color: lightblue;
+    
+  }
