@@ -1,15 +1,45 @@
-body{box-sizing: border-box;
-padding: 0px;
-margin: 0px;}
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
 
-.container{width: 50%;
+.container{
+  width: 1000px;
 margin: auto;
-border: 1px solid black;}
+}
 
-.back{background-image: url('../img/pattern.png');
-background-color: royalblue;}
+.back{
+  width: 100%;
+  height: 100px;
+  background-image: url('../img/pattern.png');
+  background-color:rgb(72, 112, 233);
+  background-size: 400px;
+  position: relative;
+ }
 
-#the-booleaner{color: royalblue;}
+#logo{
+  width: 200px;
+  position: absolute; bottom: 0px;
+  left: 0px;
+}
 
-h5{color: gray;}
+#the-booleaner{
+color: royalblue;
+}
 
+h5 {
+  color: gray;
+}
+
+
+.tim-img{
+  width: 50%;
+  
+}
+#tim1{height: 322px;}
+#tim2{height: 322px;}
+
+#lorem{background-color: yellow;}
+
+li{margin-left: 10px;}
