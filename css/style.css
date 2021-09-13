@@ -9,19 +9,19 @@
 margin: auto;
 }
 
-.back{
+.back {
   width: 100%;
   height: 100px;
   background-image: url('../img/pattern.png');
   background-color:rgb(72, 112, 233);
   background-size: 400px;
-  position: relative;
+  
  }
 
 #logo{
-  width: 200px;
-  position: absolute; bottom: 0px;
-  left: 0px;
+  width: 200px;  
+  margin-top: 40px;
+  margin-left: 20px;
 }
 
 #the-booleaner{
@@ -44,4 +44,16 @@ h5 {
 
 li{margin-left: 10px;}
 
-table{width: 100%;}
+.tab{width: 100%;}
+
+.tab, th, td {
+  border:1px solid black;
+}
+
+.col-text {
+  width:50%;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
